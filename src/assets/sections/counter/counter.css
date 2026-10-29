@@ -1,0 +1,35 @@
+#counter {
+    padding: 90px 0 120px 0;
+    background-image: url("../images/Rectangle\ 73.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.counter_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.counter_item {
+    width: 22%;
+    text-align: center;
+}
+
+.counter_item h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #707070;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.counter_item span {
+    font-family: "Montserrat", sans-serif;
+    color: #707070;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: normal;
+    text-transform: uppercase;
+}

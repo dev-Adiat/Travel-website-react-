@@ -1,0 +1,52 @@
+#navbar {
+    padding: 15px 0px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 36px;
+    width: 100%;
+}
+
+.nav_wrapper {
+    display: flex;
+    gap: 172px;
+}
+
+.nav_opt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
+
+.nav_opt ul li a {
+    color: #036E8A;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.nav_action {
+    width: 20%;
+    display: flex;
+    gap: 8px;
+    justify-self: end;
+    padding-top: 5px;
+}
+
+.nav_action_items {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    border: 1px solid #036E8A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav_action_items i {
+    color: #036E8A;
+    font-size: 12px;
+}

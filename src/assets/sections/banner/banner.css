@@ -1,0 +1,95 @@
+#banner {
+    background: url("../images/Rectangle\ 72.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 257px;
+    padding-bottom: 200px;
+}
+
+.banner_wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 784px;
+    margin: 0 auto;
+}
+
+.banner_wrapper h1 {
+    font-weight: 700;
+    font-style: bold;
+    font-size: 89px;
+    width: 724px;
+    color: #FFFFFF;
+    line-height: 100%;
+    text-align: start;
+}
+
+.banner_wrapper .lorem_wrapper {
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.banner_wrapper .lorem_wrapper p {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.banner_search {
+    margin-top: 45px;
+    width: 428px;
+    height: 60px;
+    border: 1px solid #036E8A;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    background-color: #FFFFFF;
+
+}
+
+form {
+    display: flex;
+    gap: 15px;
+}
+
+.banner_search input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    padding-left: 95px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #036E8A;
+}
+
+.banner_search input::placeholder {
+    color: #036E8A;
+    font-weight: 400;
+}
+
+.banner_search i {
+    color: #036E8A;
+    position: absolute;
+    top: 50%;
+    left: 23px;
+    transform: translateY(-50%);
+    font-size: 30px;
+
+}
+
+.map_circle {
+    width: 58px;
+    height: 58px;
+    background-color: #FF8000;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,121 @@
+#msg {
+    padding-bottom: 120px;
+}
+
+.msg_mainbox {
+    position: relative;
+    background-color: #036E8A;
+    border-radius: 50px;
+}
+
+.msg_wrapper {
+    padding: 85px;
+    border-radius: 50px;
+    position: relative;
+    z-index: 555;
+}
+
+.msg_wrapper h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 70px;
+    line-height: normal;
+    letter-spacing: 0%;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    margin-bottom: 135px;
+}
+
+.msg_wrapper h2::after {
+    position: absolute;
+    content: "";
+    width: 778px;
+    background-color: #FFF;
+    height: 3px;
+    bottom: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.msg_wrapper .sec_subtitle {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    max-width: 661px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 103px;
+}
+
+.msg_wrapper .sec_subtitle::after {
+    position: absolute;
+    content: "";
+    width: 450px;
+    background-color: #FFF;
+    height: 3px;
+    bottom: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.msg_btn {
+    text-align: center;
+}
+
+.msg_btn button {
+    background-color: #FF8000;
+    padding: 21px 67px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: normal;
+    color: #fff;
+    border: none;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+.msg_img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.message_us_shape{
+     position: absolute;
+    left:0;
+    bottom: 10;
+    transform: translateY(1000px);
+    transform: translateX(-40%);
+    padding-left: 730px;
+   opacity: 70%;
+   z-index: 5;
+
+}
